@@ -1,0 +1,30 @@
+Mulai
+
+Deklarasi array:
+    namaBarang[50]
+    hargaBarang[50]
+    jumlahBarang[50]
+
+Deklarasi:
+    totalBarang, totalBayar, bayar, kembalian
+
+Input totalBarang
+
+Untuk i = 0 sampai totalBarang-1
+    Input namaBarang[i]
+    Input hargaBarang[i]
+    Input jumlahBarang[i]
+    totalBayar = totalBayar + (hargaBarang[i] * jumlahBarang[i])
+Selesai perulangan
+
+Tampilkan totalBayar
+
+Input bayar
+
+Jika bayar >= totalBayar
+    kembalian = bayar - totalBayar
+    Tampilkan kembalian
+Jika tidak
+    Tampilkan "Uang tidak cukup"
+
+Selesai
